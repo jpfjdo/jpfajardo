@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPJDO │ Portfolio</title>
+    <link rel="icon" href="./img/icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="./src/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./build/styles.css">
+</head>
+<body style="background-image: url('https://i.imgur.com/xhrYwDs.gif');" class="w-full h-full bg-repeat bg-left bg-cover bg-fixed">
+    <div >
+        <div class="container pt-32 lg:pt-20 2xl:pt-[100px] pb-20">
+            <div class="flex flex-wrap">
+                <div class="w-4/5 mx-[30px] h-auto lg:mx-[10px] md:w-9/12 md:h-[641px] md:mx-auto 2xl:mx-[40px] lg:w-4/12 lg:h-[580px] 2xl:h-[641px] px-4 items-center md:px-[50px]">
+                    <div class=" bg-primary border mb-10 lg:mb-0 border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25 hover:shadow-lg hover:shadow-shadowBro" > 
+                        <h1 class="text-center font-bitFont text-xl lg:text-[24px] text-fortext mb-2 mt-5 lg:mt-20 wd:mt-[20]">JPFJDO</h1>
+                        <h2 class="text-center font-japanFont text-base lg:text-[16px] font-thin text-white mb-10 lg:mb-[80px] 2xl:mb-[100px] md:mb-[100px] italic">Joshua Patrick G. Fajardo</h2>
+                        <ul id="myTab"  data-tabs-toggle="#myTabContent" role="tablist" class="gap-4 grid grid-cols-2 p-3 lg:p-6 lg:mb-[80px] 2xl:mb-[100px] md:mb-[100px] ">
+                            <li align="center" role="presentation">
+                                <button data-tabs-target="#home" aria-controls="home" id="home-tab" type="button" aria-selected="false" role="tab">
+                                    <img src="./img/home.png" alt="" class=" inline-block fill-current mb-2 w-[64px] lg:w-[104px]">
+                                </button>
+                                <h1 class="font-firaCode text-lg lg:text-[16px] mb-5 text-fortext lg:font-medium">Home</h1>
+                            </li>
+    
+                            <li align="center" role="presentation">
+                                <button data-tabs-target="#profile" aria-controls="profile" id="profile-tab"  type="button" aria-selected="false" role="tab">
+                                    <img src="./img/profile.png"  alt="" class="inline-block fill-current mb-2 w-[64px] lg:w-[104px]">
+                                </button>
+                                <h1 class="font-firaCode text-lg lg:text-[16px] mb-5 text-fortext lg:font-medium">Profile</h1>
+                            </li>
+    
+                            <li align="center"role="presentation">
+                                <button data-tabs-target="#project" aria-controls="project" id="project-tab" type="button" aria-selected="false" role="tab">
+                                    <img src="./img/project.png" alt="" class="inline-block fill-current mb-2 w-[64px] lg:w-[104px]">
+                                </button>
+                                <h1 class="font-firaCode text-lg lg:text-[16px] mb-5 text-fortext lg:font-medium ">Project</h1>
+                            </li>
+    
+                            <li align="center" role="presentation">
+                                <button data-tabs-target="#contact" aria-controls="contact" id="contact-tab" type="button" aria-selected="false" role="tab">
+                                    <img src="./img/contact.png" alt="" class="hover:text-secondary font-bitFont text-white   inline-block fill-current mb-2 w-[64px] lg:w-[104px]">
+                                </button>
+                                <h1 class="font-firaCode text-lg lg:text-[16px] mb-10 text-fortext  lg:font-medium">Contact</h1>
+                            </li>
+    
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+                
+                <div id="myTabContent">
+                    <div class="hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="mx-[40px] lg:mx-[10px] md:mx-auto  items-center md:w-[790px] 2xl:mx-[60px] md:h-auto w-4/5 lg:w-[790px] 2xl:w-[790px] lg:h-auto bg-primary border border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25  hover:shadow-lg hover:shadow-shadowBro">
+                            <div class="flex flex-wrap">
+                                <div align="center" class="text-white font-bitFont w-1/12 border-gray-500 mx-auto mt-3 mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-[18px] lg:w-[18px]" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 9.4C21.9-3.1 42.1-3.1 54.6 9.4L160 114.7V96c0-17.7 14.3-32 32-32s32 14.3 32 32v96c0 4.3-.9 8.5-2.4 12.2c-1.6 3.7-3.8 7.3-6.9 10.3l-.1 .1c-3.1 3-6.6 5.3-10.3 6.9c-3.8 1.6-7.9 2.4-12.2 2.4H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h18.7L9.4 54.6C-3.1 42.1-3.1 21.9 9.4 9.4zM256 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM114.7 352H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0l.1 0c8.8 0 16.7 3.6 22.5 9.3l.1 .1c3 3.1 5.3 6.6 6.9 10.3c1.6 3.8 2.4 7.9 2.4 12.2v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 352zM416 96c0-17.7 14.3-32 32-32s32 14.3 32 32v18.7L585.4 9.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 160H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448c-8.8 0-16.8-3.6-22.6-9.3l-.1-.1c-3-3.1-5.3-6.6-6.9-10.3s-2.4-7.8-2.4-12.2l0-.1v0V96zM525.3 352L630.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 397.3V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V320v0c0 0 0-.1 0-.1c0-4.3 .9-8.4 2.4-12.2c1.6-3.8 3.9-7.3 6.9-10.4c5.8-5.8 13.7-9.3 22.5-9.4c0 0 .1 0 .1 0h0 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H525.3z"/></svg>
+                                </div>
+                                <div class="text-white w-4/5 mx-auto mt-1">
+                                    <h1 class="text-center border-r border-l h-full border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-bold">Home Page</h1>
+                                </div>
+                                <div align="center" class="text-white w-1/12 mx-auto mt-2 mb-2">
+                                    <button class=" border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-thin">X</button>
+                                </div>
+                            </div>
+                            <hr class="border-gray-500 sm:mx-auto mx-auto w-full h-full" />
+
+                            <div align="center" class="mt-20 mb-20 lg:mt-12 lg:mb-12">    
+                                <img src="./img/ione.gif" alt="" class="w-[500px]">
+                                <h1 class="font-bitFont text-base xl:text-3xl lg:text-3xl md:text-2xl font-bold text-white">Welcome to My World</h1>
+                                <h1 class="japanTitle font-japanFont text-base xl:text-xl lg:text-xl md:text-xl italic text-fortext"></h1>
+                                
+                            </div>
+                            
+                            <footer>
+                                <hr class="border-gray-500 sm:mx-auto " />
+                                <h1 class="text-white font-firaCode lg:px-16 px-4 text-base lg:text-[15px] font-thin mt-3 mb-3">@2023 Joshua Patrick G. Fajardo</h1>
+                            </footer>
+                        </div>
+                    </div>
+
+                    <div class="hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="mx-[40px] 2xl:mx-[60px] lg:mx-[10px] md:mx-auto  items-center md:w-[790px] w-4/5  lg:w-[790px] 2xl:w-[790px] lg:h-auto bg-primary border border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25 hover:shadow-lg hover:shadow-shadowBro mb-10  md:h-auto">
+                            <div class="flex flex-wrap">
+                                <div align="center" class="text-white font-bitFont w-1/12 border-gray-500 mx-auto mt-3 mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-[18px] lg:w-[18px]" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 9.4C21.9-3.1 42.1-3.1 54.6 9.4L160 114.7V96c0-17.7 14.3-32 32-32s32 14.3 32 32v96c0 4.3-.9 8.5-2.4 12.2c-1.6 3.7-3.8 7.3-6.9 10.3l-.1 .1c-3.1 3-6.6 5.3-10.3 6.9c-3.8 1.6-7.9 2.4-12.2 2.4H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h18.7L9.4 54.6C-3.1 42.1-3.1 21.9 9.4 9.4zM256 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM114.7 352H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0l.1 0c8.8 0 16.7 3.6 22.5 9.3l.1 .1c3 3.1 5.3 6.6 6.9 10.3c1.6 3.8 2.4 7.9 2.4 12.2v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 352zM416 96c0-17.7 14.3-32 32-32s32 14.3 32 32v18.7L585.4 9.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 160H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448c-8.8 0-16.8-3.6-22.6-9.3l-.1-.1c-3-3.1-5.3-6.6-6.9-10.3s-2.4-7.8-2.4-12.2l0-.1v0V96zM525.3 352L630.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 397.3V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V320v0c0 0 0-.1 0-.1c0-4.3 .9-8.4 2.4-12.2c1.6-3.8 3.9-7.3 6.9-10.4c5.8-5.8 13.7-9.3 22.5-9.4c0 0 .1 0 .1 0h0 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H525.3z"/></svg>
+                                </div>
+                                <div class="text-white w-4/5 mx-auto mt-1">
+                                    <h1 class="text-center border-r border-l h-full border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-bold">Profile Page</h1>
+                                </div>
+                                <div align="center" class="text-white w-1/12 mx-auto mt-2 mb-2">
+                                    <button class="border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-thin">X</button>
+                                </div>
+                            </div>
+                            <hr class="border-gray-500 sm:mx-auto " />
+
+                            <div class="flex flex-wrap mt-20 mb-20  lg:mt-8 lg:mb-8">
+                                <div align="center" class="w-full lg:w-1/2 px-4 self-center">
+                                    <img src="https://64.media.tumblr.com/16f77d9f40549397f545726ceafa85e2/8316e9f08332d7b0-4d/s500x750/af10cd593457cbd5e8d9493a7032dd14353a74f8.gifv" alt="" class="mb-5 w-[350px] rounded-lg shadow-lg shadow-primary">
+                                </div>
+                                <div class="w-full lg:w-1/2 px-6">
+                                    <h1 class="font-firaCode text-lg lg:text-xl xl:text-xl font-medium text-fortext mb-3 lg:mb-5">> I'm a <span class="auto-type"></span></h1>
+                                    <p class="font-firaCode text-base font-thin text-white mb-3">Hi everyone! My name is Joshua, I love pixel art and studio ghibli so much. I am currently a student in Mapua Malayan Digital College taking Bachelor of Science in Technology.</p>
+                                    <p class="font-firaCode text-base font-thin text-white mb-3">I also love to write whether it be English or Filipino. I'm currently developing my coding skills so I'm still not fluent in the different programming languages.</p>
+                                    <div class="grid grid-cols-3 gap-3">
+                                    </div>
+                                </div>
+                            </div>
+                            <footer>
+                                <hr class="border-gray-500 sm:mx-auto " />
+                                <h1 class="text-white font-firaCode lg:px-16 px-4 text-base lg:text-[15px]  font-thin mt-3 mb-3">@2023 Joshua Patrick G. Fajardo</h1>
+                            </footer>
+                        </div>
+                        <div class="visible lg:visible xl:visible md:visible md:mx-auto  items-center md:w-[790px] mx-[40px] xl:w-[790px] lg:w-[790px] md:h-auto lg:mx-[10px] 2xl:mx-[60px] 2xl:w-[790px] w-4/5  lg:h-auto border border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25">
+                            <div class="flex flex-wrap">
+                                <div align="center" class="text-white font-bitFont w-1/12 border-gray-500 mx-auto mt-3 mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-[18px] lg:w-[18px]" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 9.4C21.9-3.1 42.1-3.1 54.6 9.4L160 114.7V96c0-17.7 14.3-32 32-32s32 14.3 32 32v96c0 4.3-.9 8.5-2.4 12.2c-1.6 3.7-3.8 7.3-6.9 10.3l-.1 .1c-3.1 3-6.6 5.3-10.3 6.9c-3.8 1.6-7.9 2.4-12.2 2.4H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h18.7L9.4 54.6C-3.1 42.1-3.1 21.9 9.4 9.4zM256 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM114.7 352H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0l.1 0c8.8 0 16.7 3.6 22.5 9.3l.1 .1c3 3.1 5.3 6.6 6.9 10.3c1.6 3.8 2.4 7.9 2.4 12.2v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 352zM416 96c0-17.7 14.3-32 32-32s32 14.3 32 32v18.7L585.4 9.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 160H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448c-8.8 0-16.8-3.6-22.6-9.3l-.1-.1c-3-3.1-5.3-6.6-6.9-10.3s-2.4-7.8-2.4-12.2l0-.1v0V96zM525.3 352L630.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 397.3V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V320v0c0 0 0-.1 0-.1c0-4.3 .9-8.4 2.4-12.2c1.6-3.8 3.9-7.3 6.9-10.4c5.8-5.8 13.7-9.3 22.5-9.4c0 0 .1 0 .1 0h0 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H525.3z"/></svg>
+                                </div>
+                                <div class="text-white w-4/5 mx-auto mt-1">
+                                    <h1 class="text-center border-r border-l h-full border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-bold">Social Media</h1>
+                                </div>
+                                <div align="center" class="text-white w-1/12 mx-auto mt-2 mb-2">
+                                    <button class="border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-thin">X</button>
+                                </div>
+                            </div>
+                            <hr class="border-gray-500 sm:mx-auto " />
+                            <div class="mt-6 mb-6 w-full mx-auto flex flex-wrap lg:pl-[240px] md:pl-[240px] pl-2 gap-3">
+                                <a href="https://github.com/jpfjdo" type="button">
+                                    <img src="https://media.discordapp.net/attachments/749996949062549545/1125684097063338094/image.png" alt="" class="w-[50px]" >
+                                </a>
+                                <a type="button" href="https://www.instagram.com">
+                                    <img src="https://media.discordapp.net/attachments/749996949062549545/1125684403201388544/image.png" alt="" class="w-[50px]">
+                                </a>
+                                <a type="button" href="https://facebook.com">
+                                    <img src="https://freepngimg.com/thumb/facebook/141229-logo-circle-pic-facebook-free-hd-image.png" alt="" class="w-[50px]" >
+                                </a>
+                                <a type="button" href="https://twitter.com">
+                                    <img src="https://media.discordapp.net/attachments/749996949062549545/1125685839729545237/image.png" alt="" class="w-[50px]" >
+                                </a>
+                                <a type="button" href="https://discord.com">
+                                    <img src="https://media.discordapp.net/attachments/749996949062549545/1125686081854111745/image.png" alt="" class="w-[50px]" >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden" id="project" role="tabpanel" aria-labelledby="project-tab">
+                        <div class="mx-[40px] 2xl:mx-[60px]  lg:mx-[10px] w-4/5 lg:w-[790px] md:mx-auto  items-center md:w-[790px] 2xl:w-[790px] md:h-auto lg:h-auto bg-primary border border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25 hover:shadow-lg hover:shadow-shadowBro ">
+                            <div class="flex flex-wrap">
+                                <div align="center" class="text-white font-bitFont w-1/12 border-gray-500 mx-auto mt-3 mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-[18px] lg:w-[18px]" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 9.4C21.9-3.1 42.1-3.1 54.6 9.4L160 114.7V96c0-17.7 14.3-32 32-32s32 14.3 32 32v96c0 4.3-.9 8.5-2.4 12.2c-1.6 3.7-3.8 7.3-6.9 10.3l-.1 .1c-3.1 3-6.6 5.3-10.3 6.9c-3.8 1.6-7.9 2.4-12.2 2.4H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h18.7L9.4 54.6C-3.1 42.1-3.1 21.9 9.4 9.4zM256 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM114.7 352H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0l.1 0c8.8 0 16.7 3.6 22.5 9.3l.1 .1c3 3.1 5.3 6.6 6.9 10.3c1.6 3.8 2.4 7.9 2.4 12.2v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 352zM416 96c0-17.7 14.3-32 32-32s32 14.3 32 32v18.7L585.4 9.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 160H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448c-8.8 0-16.8-3.6-22.6-9.3l-.1-.1c-3-3.1-5.3-6.6-6.9-10.3s-2.4-7.8-2.4-12.2l0-.1v0V96zM525.3 352L630.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 397.3V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V320v0c0 0 0-.1 0-.1c0-4.3 .9-8.4 2.4-12.2c1.6-3.8 3.9-7.3 6.9-10.4c5.8-5.8 13.7-9.3 22.5-9.4c0 0 .1 0 .1 0h0 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H525.3z"/></svg>
+                                </div>
+                                <div class="text-white w-4/5 mx-auto mt-1">
+                                    <h1 class="text-center border-r border-l h-full border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-bold">Project Page</h1>
+                                </div>
+                                <div align="center" class="text-white w-1/12 mx-auto mt-2 mb-2">
+                                    <button class="border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-thin">X</button>
+                                </div>
+                            </div>
+                            <hr class="border-gray-500 sm:mx-auto " />
+                            <div class="mt-8 mb-24 lg:mt-20 lg:mb-20 md:mb-20 md:mt-20">
+                                <div class="flex flex-wrap">
+                                    <div  class="w-full px-4 lg:w-3/4 2xl:w-4/5 md:w-3/4 mx-auto text-center items-center" >
+                                        <ul id="myTab" data-tabs-toggle="#myTabContent" role="tablist" class="flex flex-wrap gap-2 -mb-px text-sm font-medium text-center" >
+                                            <li role="presentation" class="mr-2 mb-3 flex items-center">
+                                                <button data-tabs-target="#writing" aria-controls="writing" id="writing-tab" type="button" aria-selected="false" role="tab" class="flex">
+                                                    <img src="https://static.thenounproject.com/png/2056734-200.png" alt="SD" width="30" height="30" class="mr-2">
+                                                    <a class="text-white lg:text-lg 2xl:text-sm text-sm font-firaCode font-medium">Writing</a>
+                                                </button>
+                                            </li>  
+                                            <li role="presentation" class="mr-2 mb-3 flex items-center">
+                                                <button data-tabs-target="#research" aria-controls="research" id="research-tab" type="button" aria-selected="false" role="tab" class="flex">
+                                                    <img src="https://png2.cleanpng.com/sh/4e8bf38e5ad2bb17c13389886f8d55a8/L0KzQYm3UsEyN6ZtfZH0aYP2gLBuTfNwdaF6jNd7LX3yhcTsTf1ib59ufutybnewd73okCMucJJzfJ9yY3BxPbfzggR1bZ9qfJ9xb3znebBuTfEudZJshttveXnxd37ujPF0e15tedDtLUXkSIGBV8djPZU2Stg9LkG2QISAUsU3OWY2UKUCMke2QYSBUcIveJ9s/kisspng-computer-mouse-magnifying-glass-hand-icon-flattened-holding-a-magnifying-glass-hand-5a80877b5d12f4.1303725615183727313812.png" alt="SD" width="30" height="30" class="mr-2">
+                                                    <a class="text-white lg:text-lg 2xl:text-sm text-sm font-firaCode font-medium">Research</a>
+                                                </button>
+                                            </li>                                                                                       
+                                            <li role="presentation" class="mr-2 mb-3 flex items-center">
+                                                <button data-tabs-target="#wd" aria-controls="wd" id="wd-tab" type="button" aria-selected="false" role="tab" class="flex">
+                                                    <img src="https://png2.cleanpng.com/sh/9eea7e46ab94b99a62b3e8b724abb2d8/L0KzQYm3UsA0N5d7j5H0aYP2gLBuTgdwep1pRelyZHWwh7bpTflvfJZ3htd9LXnmf7A0lB9zdJUyj9ttZT36dbO0kP5oNZduhNc2NXG6RbK4gcgzQGhmS6Y3OEe1R4SCVsMyPWI8TqcDNUO5QYe8WL5xdpg=/kisspng-world-wide-web-internet-icon-world-wide-web-png-file-5a75a1a8287a34.8727396315176585361658.png" alt="SD" width="30" height="30" class="mr-2">
+                                                    <a class="text-white lg:text-lg 2xl:text-sm text-sm font-firaCode font-medium">Web Development</a>
+                                                </button>
+                                            </li>  
+                                            <li role="presentation" class="mr-2 mb-3 flex items-center">
+                                                <button data-tabs-target="#sd" aria-controls="sd" id="sd-tab" type="button" aria-selected="false" role="tab" class="flex">
+                                                    <img src="https://png2.cleanpng.com/sh/6db365e73963832967108731df36917a/L0KzQYm3VME6N6p5iZH0aYP2gLBuTfNwdaF6jNd7LYPydsXAggJmNaRAiAZubT3sfsXshCJifJp0hp98b3b3h7L5hb1lbadqReVuY4X1ecXCTf1icZ95fdDqbnPoPYbohMhibJNpSNMBZkG3PoO4WcI2PGYASac7NEG3SYeCU8A1OmkziNDw/kisspng-computer-software-system-integration-software-deve-security-maintenance-5ad8adbd0a6f14.2192545915241496930428.png" alt="SD" width="30" height="30" class="mr-2">
+                                                    <a class="text-white lg:text-lg 2xl:text-sm text-sm font-firaCode font-medium">Software Development</a>
+                                                </button>
+                                            </li>                                                                                  
+                                                    </a>
+                                                </button>
+                                            </li>
+                                            <li role="presentation" class="mr-2 mb-3 flex items-center">
+                                                <button data-tabs-target="#art" aria-controls="art" id="art-tab" type="button" aria-selected="false" role="tab" class="flex">
+                                                    <img src="https://png2.cleanpng.com/sh/143fdbcb2b2ff5a1861c815acb5ddd44/L0KzQYm3UcI4N5J1fZH0aYP2gLBuTfdmep5mhus2Znnog8Xok71lbV54edC2bXnqhbbzTf12dppogeJqbHn3iX72hr1vaadmRdp4bHmwdrb6lPl3aZ0yTdMBY0O3RYPtUfE5QWYzUao8MUC8R4G4VcE4OGU1T6Q7OUi8SXB3jvc=/kisspng-germany-fiestas-de-san-miguel-municipality-of-nava-holi-festival-5a6c3452f1a895.9831097015170407229899.png" alt="SD" width="30" height="30" class="mr-2">
+                                                    <a class="text-white lg:text-lg 2xl:text-sm text-sm font-firaCode font-medium">Art</a>
+                                                </button>
+                                            </li>  
+                                            <li role="presentation" class="mr-2 mb-3 flex items-center">
+                                                <button data-tabs-target="#cv" aria-controls="cv" id="cv-tab" type="button" aria-selected="false" role="tab" class="flex">
+                                                    <img src="https://png2.cleanpng.com/sh/ca3ce4f9f819f770c9e074412dddfe59/L0KzQYi4UcI4N2FmTpGAYUHmcbTqVPI0P2hnTZCDNke1SYe8UsE2OWI9SqoBN0a6Q4a4TwBvbz==/5a1cacc4b377b5.8672965215118286767351.png" alt="SD" width="20" height="20" class="mr-2">
+                                                    <a class="text-white lg:text-lg 2xl:text-sm text-sm font-firaCode font-medium">Art</a>
+                                                </button>
+                                            </li>                                                
+                                        </ul>
+                                    </div>
+                                    
+                                    <div id="myTabContent" class="w-full lg:w-6/12 2xl:w-8/12 md:w-4/5 md:px-40  md:mx-auto md:self-center lg:mx-auto px-4 lg:px-16 self-center mt-5 lg:mt-8">
+                                        <div class="hidden" id="writing" role="tabpanel" aria-labelledby="writing-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg " src="https://64.media.tumblr.com/ee5ebc1d9445f01ff76103d027195826/tumblr_muefaahCU41qffcopo1_500.gifv" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Editorial Articles and Essays</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">Written editorial articles and essays during my SHS years.</p>
+                                                    <a href="https://drive.google.com/drive/folders/1ZdciIZRMDiPNIpyDwI1L6hpbQaFv5lT5" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="research" role="tabpanel" aria-labelledby="research-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg " src="https://64.media.tumblr.com/07df88d3b31fc7c751309ba6893409fe/tumblr_n7fxhh07891roihxco1_500.gifv" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Psychology</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">My group's research project back in SHS that revolves around the influence of Media to the Gender Identity</p>
+                                                    <a href="https://drive.google.com/file/d/1Km6sdDqlE5D5KmO_6vag09SyahgxpwtI/view?usp=sharing" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="wd" role="tabpanel" aria-labelledby="wd-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg " src="https://68.media.tumblr.com/e38e44273a4af879b17aafb2dc55f1bc/tumblr_oo7nx2EzOi1uojky7o1_540.gif" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">First Portfolio Website</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">This is the first portfolio I made for myself.</p>
+                                                    <a href="https://jpfjdo.rf.gd" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="sd" role="tabpanel" aria-labelledby="sd-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg" src="https://64.media.tumblr.com/e40b53433bed496642594f8d6effa818/tumblr_of4qvuauz51vruqgxo1_1280.gifv" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Coming Soon!</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">I'm hoping to learn a lot from my institution so I can make lots of project. :)</p>
+                                                    <a href="https://github.com/jpfjdo" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="art" role="tabpanel" aria-labelledby="art-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg" src="https://i.pinimg.com/originals/d9/d8/81/d9d88132cfb2bc4a7e4820c991a286bd.gif" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Coming Soon!</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">I used to do digital art and I hope to get back to doing it again soon! :3</p>
+                                                    <a href="https://github.com/rulanugrh/gometri" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hidden" id="cv" role="tabpanel" aria-labelledby="cv-tab">
+                                            <div class="max-w-md bg-primary border border-gray-300 rounded-lg bg-opacity-25 backdrop-filter backdrop-blur-lg overflow-hidden ">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg" src="https://i.pinimg.com/originals/f0/c6/6f/f0c66f528d73b1631ea87ceb89109999.gif" alt=""/>
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-lg lg:text-2xl font-bold tracking-tight text-fortext font-bitFont ">Resume</h5>
+                                                    </a>
+                                                    <p class="mb-7 font-normal font-firaCode text-white lg:text-lg">Let me tell you more about myself, my achievements, and educational background. ^-^</p>
+                                                    <a href="https://facebook.com" class="block font-firaCode text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                                        view-project
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <footer>
+                                <hr class="border-gray-500 sm:mx-auto " />
+                                <h1 class="text-white font-firaCode lg:px-16 px-4 text-base lg:text-[15px] font-thin mt-3 mb-3">@2023 Joshua Patrick G. Fajardo</h1>
+                            </footer>
+                        </div>
+                    </div>
+
+                    <div class="hidden" id="contact" role="tabpanel" aria-labelledby="contact-tab"> 
+                        <div class="mx-[40px] lg:mx-[10px] 2xl:mx-[60px] w-4/5 lg:w-[790px] lg:h-auto md:w-[790px] md:mx-auto items-center 2xl:w-[790px] md:h-auto bg-primary border border-gray-500 backdrop-filter backdrop-blur-lg bg-opacity-25 hover:shadow-lg hover:shadow-shadowBro ">
+                            <div class="flex flex-wrap">
+                                <div align="center" class="text-white font-bitFont w-1/12 border-gray-500 mx-auto mt-3 mb-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-[18px] lg:w-[18px]" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 9.4C21.9-3.1 42.1-3.1 54.6 9.4L160 114.7V96c0-17.7 14.3-32 32-32s32 14.3 32 32v96c0 4.3-.9 8.5-2.4 12.2c-1.6 3.7-3.8 7.3-6.9 10.3l-.1 .1c-3.1 3-6.6 5.3-10.3 6.9c-3.8 1.6-7.9 2.4-12.2 2.4H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h18.7L9.4 54.6C-3.1 42.1-3.1 21.9 9.4 9.4zM256 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM114.7 352H96c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0l.1 0c8.8 0 16.7 3.6 22.5 9.3l.1 .1c3 3.1 5.3 6.6 6.9 10.3c1.6 3.8 2.4 7.9 2.4 12.2v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V397.3L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 352zM416 96c0-17.7 14.3-32 32-32s32 14.3 32 32v18.7L585.4 9.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 160H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H448c-8.8 0-16.8-3.6-22.6-9.3l-.1-.1c-3-3.1-5.3-6.6-6.9-10.3s-2.4-7.8-2.4-12.2l0-.1v0V96zM525.3 352L630.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 397.3V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V320v0c0 0 0-.1 0-.1c0-4.3 .9-8.4 2.4-12.2c1.6-3.8 3.9-7.3 6.9-10.4c5.8-5.8 13.7-9.3 22.5-9.4c0 0 .1 0 .1 0h0 96c17.7 0 32 14.3 32 32s-14.3 32-32 32H525.3z"/></svg>
+                                </div>
+                                <div class="text-white w-4/5 mx-auto mt-1">
+                                    <h1 class="text-center border-r border-l h-full border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-bold">Contact Page</h1>
+                                </div>
+                                <div align="center" class="text-white w-1/12 mx-auto mt-2 mb-2">
+                                    <button class="border-gray-500 font-bitFont text-base lg:text-[20px] lg:font-thin">X</button>
+                                </div>
+                            </div>
+                            <hr class="border-gray-500 sm:mx-auto " />
+
+                            <div class="mt-20 mb-20 lg:mb-10">
+                                <h1 class="lg:px-10 px-2 font-firaCode text-base lg:text-xl 2xl:text-lg font-thin text-fortext mb-5 lg:mb-10"><span class="text-lime-400"></span><span class="text-third font-semibold"></span><span class="text-lime-400"></span> <span class="text-white"></span></h1>
+                                <div align="center" class="mb-8">
+                                    <h1 class="text-center font-bitFont font-bold text-lg xl:text-2xl 2xl:text-xl inline lg:text-2xl md:text-2xl text-white">Thank You Everyone</h1>
+                                    <h1 class="text-center italic text-lg xl:text-xl lg:text-xl 2xl:text-xl tex-white font-japanFont text-white mb-5"></h1>
+                                </div>
+                                <h1 class="lg:px-10  px-2 font-firaCode text-base lg:text-xl 2xl:text-lg font-thin text-fortext "> <span class="text-lime-400"></span><span class="text-third font-semibold"></span><span class="text-lime-400"></span> <span class="text-white"></span></h1>
+                                <div class="md:px-10 2xl:px-1 flex flex-wrap">
+                                    <div align="center" class="2xl:w-1/2 lg:w-1/2 md:w-1/2 w-full">
+                                        <img src="./img/profile.gif" alt="" class="w-[300px]">
+                                    </div>
+                                    <div class="lg:w-1/2 2xl:w-1/2 px-6 2xl:px-1 md:w-1/2 w-full self-center">
+                                        <h1 class="font-firaCode text-base lg:text-xl xl:text-xl 2xl:text-lg md:text-xl font-semibold mb-2 text-fortext">E-Mail<span class="font-thin text-white">: jpfjdo@gmail.com</span></h1>
+                                        
+                                        <h2 class=" md:text-xl font-firaCode text-base lg:text-xl xl:text-xl 2xl:text-lg font-semibold mb-2 text-fortext">Github<span class="font-thin text-white">: github.com/jpfjdo</span></h2>
+                                        
+                                        <h2 class="font-firaCode md:text-xl text-base lg:text-xl xl:text-xl 2xl:text-lg font-semibold mb-2 text-fortext">Instagram<span class="font-thin text-white">: instagram.com/secret</span></h2>
+                                        
+                                        <h2 class="font-firaCode text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-lg font-semibold mb-2 text-fortext">Twitter<span class="font-thin text-white">: twitter.com/secret</span></h2>
+                                        
+                                        <h2 class="font-firaCode text-base lg:text-xl md:text-xl xl:text-xl 2xl:text-lg font-semibold mb-2 text-fortext">Quote<span class="font-thin text-white">: I don't want to run away anymore, I want to see what happens when I don't.</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer>
+                                <hr class="border-gray-500 sm:mx-auto " />
+                                <h1 class="text-gray-300 font-firaCode lg:px-4 px-4 text-base lg:text-[15px] font-extrabold mt-3 mb-3">| <span class="font-thin italic">I'm one e-mail away, hoping to work with you soon! ^-^</span></h1>
+                            </footer>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./src/js/anime.min.js"></script>
+    <script src="./src/js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Software Development Student", "Writer", "Student Researcher"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+    </script>
+    <script>
+        var typed = new Typed(".japanTitle", {
+            strings: ["Software Development Student, Writer, and Student Researcher "],
+            typeSpeed: 100,
+            backSpeed: 100,
+
+        })
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+</body>
+</html>
